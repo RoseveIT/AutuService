@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="712.0" prefWidth="1024.0" style="-fx-background-color: #FAFAFA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autuservice.PageSignUpController">
+    <children>
+        <AnchorPane prefHeight="120.0" prefWidth="1024.0" style="-fx-background-color: #424242;">
+            <children>
+                <Label layoutX="460.0" layoutY="24.0" text="Вхід" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="50.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+          <TextField fx:id="signUpLogin" layoutX="382.0" layoutY="152.0" prefHeight="52.0" prefWidth="504.0">
+              <font>
+                  <Font size="18.0" />
+              </font>
+          </TextField>
+      <TextField fx:id="signUpName" layoutX="382.0" layoutY="218.0" prefHeight="52.0" prefWidth="504.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="signUpLastname" layoutX="382.0" layoutY="281.0" prefHeight="52.0" prefWidth="504.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="SignUpEmail" layoutX="382.0" layoutY="345.0" prefHeight="52.0" prefWidth="504.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="signUpPassword" layoutX="382.0" layoutY="407.0" prefHeight="52.0" prefWidth="504.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Pane layoutX="139.0" layoutY="150.0" prefHeight="52.0" prefWidth="235.0" style="-fx-background-color: #5BB6DC;">
+         <children>
+            <Text fill="WHITE" layoutX="33.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Логін">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="139.0" layoutY="216.0" prefHeight="52.0" prefWidth="235.0" style="-fx-background-color: #5BB6DC;">
+         <children>
+            <Text fill="WHITE" layoutX="36.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ім'я">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="139.0" layoutY="343.0" prefHeight="52.0" prefWidth="235.0" style="-fx-background-color: #5BB6DC;">
+         <children>
+            <Text fill="WHITE" layoutX="38.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ел. пошта">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="139.0" layoutY="279.0" prefHeight="52.0" prefWidth="235.0" style="-fx-background-color: #5BB6DC;">
+         <children>
+            <Text fill="WHITE" layoutX="37.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Прізвище">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="139.0" layoutY="405.0" prefHeight="52.0" prefWidth="235.0" style="-fx-background-color: #5BB6DC;">
+         <children>
+            <Text fill="WHITE" layoutX="33.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <CheckBox fx:id="signUpCheckBoxMale" layoutX="407.0" layoutY="472.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="154.0" selected="true" text="Чоловік">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </CheckBox>
+      <Pane layoutX="139.0" layoutY="468.0" prefHeight="52.0" prefWidth="235.0" style="-fx-background-color: #5BB6DC;">
+         <children>
+            <Text fill="WHITE" layoutX="33.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Стать">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <CheckBox fx:id="signUpCheckBoxFemale" layoutX="557.0" layoutY="472.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="154.0" text="Жінка">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="signUpButton" layoutX="256.0" layoutY="562.0" mnemonicParsing="false" onAction="#BtnSignUp" prefHeight="100.0" prefWidth="512.0" style="-fx-background-color: #036695;" text="Зарейструватися" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

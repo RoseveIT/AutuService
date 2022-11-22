@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="712.0" prefWidth="1024.0" style="-fx-background-color: #FAFAFA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autuservice.PageTableMasterOfficeController">
+    <children>
+        <AnchorPane prefHeight="120.0" prefWidth="1024.0" style="-fx-background-color: #424242;">
+            <children>
+                <Label layoutX="135.0" layoutY="24.0" text="Електронний кабінет майстра" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="50.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+      <Text layoutX="69.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Перелік записів:">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="148.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дата">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="431.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Час">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="724.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вид послуги">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

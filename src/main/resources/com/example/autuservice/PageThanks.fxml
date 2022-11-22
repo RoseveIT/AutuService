@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="712.0" prefWidth="1024.0" style="-fx-background-color: #FAFAFA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autuservice.PageThanksController">
+    <children>
+        <AnchorPane layoutX="205.0" layoutY="116.0" prefHeight="250.0" prefWidth="600.0" style="-fx-background-color: #5BB6DC;">
+            <children>
+                <Text fill="WHITE" layoutX="49.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дякуємо, що обрали саме наш автоскрвіс!" textAlignment="CENTER" wrappingWidth="502.60546875">
+                    <font>
+                        <Font name="System Bold" size="36.0" />
+                    </font>
+                </Text>
+            <Button fx:id="BtnExit" layoutX="173.0" layoutY="142.0" mnemonicParsing="false" onAction="#ButtonExit" prefHeight="77.0" prefWidth="255.0" style="-fx-background-color: #036695;" text="Вихід" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="216.0" fitWidth="345.0" layoutX="314.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../../images/autoservice_logo.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

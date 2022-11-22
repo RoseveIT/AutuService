@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="712.0" prefWidth="1024.0" style="-fx-background-color: #FAFAFA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autuservice.PageRightChoiseController">
+    <children>
+        <AnchorPane prefHeight="120.0" prefWidth="1024.0" style="-fx-background-color: #424242;">
+            <children>
+                <Label layoutX="320.0" layoutY="24.0" text="Підтвердження" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="50.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <Button fx:id="BtnYes" layoutX="122.0" layoutY="506.0" mnemonicParsing="false" onAction="#ButtonYes" prefHeight="87.0" prefWidth="316.0" style="-fx-background-color: #036695;" text="Так" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="48.0" />
+            </font>
+        </Button>
+        <Button fx:id="BtnNo" layoutX="603.0" layoutY="499.0" mnemonicParsing="false" onAction="#ButtonNo" prefHeight="87.0" prefWidth="316.0" style="-fx-background-color: #036695;" text="Ні" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="48.0" />
+            </font>
+        </Button>
+      <Text layoutX="390.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Все вірно?">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Text>
+      <Text layoutX="238.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дата">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="730.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Час">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>
