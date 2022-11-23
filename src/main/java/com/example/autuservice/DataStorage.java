@@ -2,7 +2,7 @@ package com.example.autuservice;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//Luno Rostysalv
 public class DataStorage {
     private static DataStorage instance;
     private final List<User> users;
