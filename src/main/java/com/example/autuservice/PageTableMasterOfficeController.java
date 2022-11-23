@@ -22,16 +22,16 @@ public class PageTableMasterOfficeController {
     @FXML
     void initialize() {
         TableColumn<Service, String> dateColumn = new TableColumn<>("Дата");
-        dateColumn.setPrefWidth(100);
+        dateColumn.setPrefWidth(150);
         dateColumn.setCellValueFactory(new PropertyValueFactory<>("date"));
 
         TableColumn<Service, String> timeColumn = new TableColumn<>("Час");
-        timeColumn.setPrefWidth(300);
+        timeColumn.setPrefWidth(150);
         timeColumn.setCellValueFactory(new PropertyValueFactory<>("time"));
 
         TableColumn<Service, String> typeColumn = new TableColumn<>("Вид послуги");
-        typeColumn.setPrefWidth(100);
-        typeColumn.setCellValueFactory(new PropertyValueFactory<>("type"));
+        typeColumn.setPrefWidth(150);
+        typeColumn.setCellValueFactory(new PropertyValueFactory<>("service"));
 
         listOfServices.getColumns().addAll(dateColumn, timeColumn, typeColumn);
 

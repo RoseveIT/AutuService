@@ -38,6 +38,10 @@ public class Service {
         this.type = type;
     }
 
+    public String getService() {
+        return type.getFriendlyName();
+    }
+
     public enum Type {
         PUMP_WHEELS("Накачати колеса"),
         CHECK_CAR("Повірка стану авто"),
