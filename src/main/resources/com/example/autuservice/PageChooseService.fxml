@@ -1,71 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.image.*?>
-<?import javafx.geometry.*?>
-<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
-<?import java.lang.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.control.Button?>
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="712.0" prefWidth="1024.0" style="-fx-background-color: #FAFAFA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autuservice.PageChooseServiceController">
-   <children>
-      <AnchorPane layoutX="424.0" prefHeight="250.0" prefWidth="600.0" style="-fx-background-color: #5BB6DC;">
-         <children>
-            <Text fill="WHITE" layoutX="97.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вітаємо Вас! Ви увійшли як клієнт.">
-               <font>
-                  <Font name="System Bold" size="24.0" />
-               </font>
-            </Text>
-            <Text fill="WHITE" layoutX="22.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Для того, щоб зустрітися з майстром вам потрбіно:">
-               <font>
-                  <Font name="System Bold" size="22.0" />
-               </font>
-            </Text>
-            <Text fill="WHITE" layoutX="26.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Оберіть вид послуги">
-               <font>
-                  <Font name="System Bold" size="20.0" />
-               </font>
-            </Text>
-            <Text fill="WHITE" layoutX="26.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Обрати дату та час">
-               <font>
-                  <Font name="System Bold" size="20.0" />
-               </font>
-            </Text>
-         </children>
-      </AnchorPane>
-      <ImageView fitHeight="216.0" fitWidth="345.0" layoutX="44.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../images/autoservice_logo.png" />
-         </image>
-      </ImageView>
-      <Button fx:id="BtnCheckingAuto" layoutX="534.0" layoutY="302.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="463.0" style="-fx-background-color: #3B6DB9;" text=" Провірка стану авто" textFill="WHITE">
-         <font>
-            <Font name="System Bold" size="30.0" />
-         </font>
-      </Button>
-      <Button fx:id="BtnPunpUpWheels" layoutX="45.0" layoutY="302.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="463.0" style="-fx-background-color: #3B6DB9;" text="Накачати кола" textFill="WHITE">
-         <font>
-            <Font name="System Bold" size="30.0" />
-         </font>
-      </Button>
-      <Button fx:id="BtnInteriorTrim" layoutX="46.0" layoutY="429.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="463.0" style="-fx-background-color: #3B6DB9;" text="Обшивка салону" textFill="WHITE">
-         <font>
-            <Font name="System Bold" size="30.0" />
-         </font>
-      </Button>
-      <Button fx:id="BtnSoundSystem" layoutX="535.0" layoutY="429.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="463.0" style="-fx-background-color: #3B6DB9;" text="Звуковасистема" textFill="WHITE">
-         <font>
-            <Font name="System Bold" size="30.0" />
-         </font>
-      </Button>
-      <Button fx:id="BtnPaintOrPast" layoutX="45.0" layoutY="560.0" mnemonicParsing="false" onAction="#ButtonPaintOrPast" prefHeight="73.0" prefWidth="953.0" style="-fx-background-color: #3B6DB9;" text="Покраска машини або обклейка пльонки" textFill="WHITE">
-         <font>
-            <Font name="System Bold" size="30.0" />
-         </font>
-      </Button>
-   </children>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="712.0"
+            prefWidth="1024.0" style="-fx-background-color: #FAFAFA;" xmlns="http://javafx.com/javafx/11.0.14-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autuservice.PageChooseServiceController">
+    <children>
+        <AnchorPane layoutX="424.0" prefHeight="250.0" prefWidth="600.0" style="-fx-background-color: #5BB6DC;">
+            <children>
+                <Text fill="WHITE" layoutX="97.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text="Вітаємо Вас! Ви увійшли як клієнт.">
+                    <font>
+                        <Font name="System Bold" size="24.0"/>
+                    </font>
+                </Text>
+                <Text fill="WHITE" layoutX="22.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text="Для того, щоб зустрітися з майстром вам потрбіно:">
+                    <font>
+                        <Font name="System Bold" size="22.0"/>
+                    </font>
+                </Text>
+                <Text fill="WHITE" layoutX="26.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text="1. Оберіть вид послуги">
+                    <font>
+                        <Font name="System Bold" size="20.0"/>
+                    </font>
+                </Text>
+                <Text fill="WHITE" layoutX="26.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text="2. Обрати дату та час">
+                    <font>
+                        <Font name="System Bold" size="20.0"/>
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="216.0" fitWidth="345.0" layoutX="44.0" layoutY="26.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@../../../../images/autoservice_logo.png"/>
+            </image>
+        </ImageView>
+        <Button fx:id="BtnCheckingAuto" layoutX="534.0" layoutY="302.0" mnemonicParsing="false" prefHeight="73.0"
+                prefWidth="463.0" style="-fx-background-color: #3B6DB9;" text=" Провірка стану авто" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="30.0"/>
+            </font>
+        </Button>
+        <Button fx:id="BtnPunpUpWheels" layoutX="45.0" layoutY="302.0" mnemonicParsing="false" prefHeight="73.0"
+                prefWidth="463.0" style="-fx-background-color: #3B6DB9;" text="Накачати кола" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="30.0"/>
+            </font>
+        </Button>
+        <Button fx:id="BtnInteriorTrim" layoutX="46.0" layoutY="429.0" mnemonicParsing="false" prefHeight="73.0"
+                prefWidth="463.0" style="-fx-background-color: #3B6DB9;" text="Обшивка салону" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="30.0"/>
+            </font>
+        </Button>
+        <Button fx:id="BtnSoundSystem" layoutX="535.0" layoutY="429.0" mnemonicParsing="false" prefHeight="73.0"
+                prefWidth="463.0" style="-fx-background-color: #3B6DB9;" text="Звуковасистема" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="30.0"/>
+            </font>
+        </Button>
+        <Button fx:id="BtnPaintOrPast" layoutX="45.0" layoutY="560.0" mnemonicParsing="false" prefHeight="73.0"
+                prefWidth="953.0" style="-fx-background-color: #3B6DB9;" text="Покраска машини або обклейка пльонки"
+                textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="30.0"/>
+            </font>
+        </Button>
+    </children>
 </AnchorPane>

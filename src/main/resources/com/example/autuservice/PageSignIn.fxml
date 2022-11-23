@@ -1,51 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.image.*?>
-<?import javafx.geometry.*?>
-<?import javafx.scene.text.*?>
-<?import javafx.scene.control.*?>
-<?import java.lang.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.control.Button?>
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="712.0" prefWidth="1024.0" style="-fx-background-color: #FAFAFA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autuservice.PageSignInController">
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="712.0"
+            prefWidth="1024.0" style="-fx-background-color: #FAFAFA;" xmlns="http://javafx.com/javafx/11.0.14-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autuservice.PageSignInController">
     <children>
         <AnchorPane prefHeight="120.0" prefWidth="1024.0" style="-fx-background-color: #424242;">
             <children>
                 <Label layoutX="460.0" layoutY="24.0" text="Вхід" textFill="WHITE">
                     <font>
-                        <Font name="System Bold" size="50.0" />
+                        <Font name="System Bold" size="50.0"/>
                     </font>
                 </Label>
             </children>
         </AnchorPane>
-      <AnchorPane layoutX="229.0" layoutY="149.0" prefHeight="498.0" prefWidth="566.0" style="-fx-background-color: #5BB6DC;">
-         <children>
-            <Text fill="WHITE" layoutX="239.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Логін">
-               <font>
-                  <Font name="System Bold" size="36.0" />
-               </font>
-            </Text>
-            <TextField layoutX="31.0" layoutY="142.0" prefHeight="52.0" prefWidth="504.0">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </TextField>
-            <PasswordField layoutX="31.0" layoutY="276.0" prefHeight="52.0" prefWidth="504.0" />
-            <Text fill="WHITE" layoutX="226.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль">
-               <font>
-                  <Font name="System Bold" size="36.0" />
-               </font>
-            </Text>
-            <Button fx:id="BtnSignIn" layoutX="125.0" layoutY="369.0" mnemonicParsing="false" onAction="#SignInButton" prefHeight="87.0" prefWidth="316.0" style="-fx-background-color: #036695;" text="Вхід" textFill="WHITE">
-               <font>
-                  <Font name="System Bold" size="36.0" />
-               </font>
-            </Button>
-         </children>
-      </AnchorPane>
+        <AnchorPane layoutX="229.0" layoutY="149.0" prefHeight="498.0" prefWidth="566.0"
+                    style="-fx-background-color: #5BB6DC;">
+            <children>
+                <Text fill="WHITE" layoutX="239.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Логін">
+                    <font>
+                        <Font name="System Bold" size="36.0"/>
+                    </font>
+                </Text>
+                <TextField fx:id="loginText" layoutX="31.0" layoutY="142.0" prefHeight="52.0" prefWidth="504.0">
+                    <font>
+                        <Font size="18.0"/>
+                    </font>
+                </TextField>
+                <PasswordField fx:id="passwordText" layoutX="31.0" layoutY="276.0" prefHeight="52.0" prefWidth="504.0"/>
+                <Text fill="WHITE" layoutX="226.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль">
+                    <font>
+                        <Font name="System Bold" size="36.0"/>
+                    </font>
+                </Text>
+                <Button fx:id="BtnSignIn" layoutX="125.0" layoutY="369.0" mnemonicParsing="false" prefHeight="87.0"
+                        prefWidth="316.0" style="-fx-background-color: #036695;" text="Вхід" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="36.0"/>
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
     </children>
 </AnchorPane>
