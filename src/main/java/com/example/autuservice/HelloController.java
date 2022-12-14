@@ -9,6 +9,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 public class HelloController {
@@ -18,6 +19,9 @@ public class HelloController {
 
     @FXML
     private URL location;
+
+    @FXML
+    private ImageView logo;
 
     @FXML
     private Button loginSignInButton;
@@ -57,6 +61,6 @@ public class HelloController {
 
     @FXML
     void initialize() {
-
+        assert logo != null : "fx:id=\"logo\" was not injected: check your FXML file 'hello-view.fxml'.";
     }
 }

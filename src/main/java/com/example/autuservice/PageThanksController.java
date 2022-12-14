@@ -9,6 +9,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 public class PageThanksController {
@@ -21,6 +22,9 @@ public class PageThanksController {
 
     @FXML
     private Button BtnExit;
+
+    @FXML
+    private ImageView logo;
 
     @FXML
     void ButtonExit(ActionEvent event) {

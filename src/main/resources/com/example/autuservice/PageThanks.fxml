@@ -27,9 +27,9 @@
             </Button>
             </children>
         </AnchorPane>
-        <ImageView fitHeight="216.0" fitWidth="345.0" layoutX="314.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="logo" fitHeight="216.0" fitWidth="345.0" layoutX="340.0" layoutY="439.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../../../../images/autoservice_logo.png" />
+                <Image url="@../../../images/autoservice_logo.png" />
             </image>
         </ImageView>
     </children>

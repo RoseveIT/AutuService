@@ -35,9 +35,10 @@
             <Font name="System Bold" size="42.0" />
          </font>
       </Button>
-      <ImageView fitHeight="226.0" fitWidth="414.0" layoutX="315.0" layoutY="439.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="logo" fitHeight="208.0" fitWidth="371.0" layoutX="331.0" layoutY="451.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../images/autoservice_logo.png" />
-         </image></ImageView>
+            <Image url="@../../../images/autoservice_logo.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
